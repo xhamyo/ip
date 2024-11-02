@@ -20,7 +20,7 @@ public class Main extends Application {
             AnchorPane ap = fxmlLoader.load();
             Scene scene = new Scene(ap);
             stage.setScene(scene);
-            stage.setTitle("Hamyo Chatbot");
+            stage.setTitle("Hamyo Chatbot - CS2101 Edition");
             stage.setMinHeight(630);
             stage.setMinWidth(420);
             fxmlLoader.<MainWindow>getController().setHamyo(hamyo); // inject the Hamyo instance
